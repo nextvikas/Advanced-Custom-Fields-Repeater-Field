@@ -1,19 +1,4 @@
 === Advanced Custom Fields: Repeater Field ===
-Contributors: elliotcondon
-Requires at least: 3.6.0
-Tested up to: 4.9.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-Break free from static inputs and create multiple rows of loop-able data
-
-== Description ==
-
-The Repeater field acts as a table of data where you can define the columns (sub fields) and add infinite rows.
-Any type of field can be added as a sub field which gives you the potential to create very flexible templates.
-
-http://www.advancedcustomfields.com/add-ons/repeater-field/
-
 
 == Installation ==
 
@@ -23,17 +8,6 @@ However, only when activated as a plugin will updates be available/
 = Plugin =
 1. Copy the 'acf-repeater' folder into your plugins folder
 2. Activate the plugin via the Plugins admin page
-
-= Include =
-1. Copy the 'acf-repeater' folder into your theme folder (can use sub folders)
-   * You can place the folder anywhere inside the 'wp-content' directory
-2. Edit your functions.php file and add the following code to include the field:
-
-`
-include_once('acf-repeater/acf-repeater.php');
-`
-3. Make sure the path is correct to include the acf-repeater.php file
-4. Remove the acf-repeater-update.php file from the folder.
 
 
 == Changelog ==
