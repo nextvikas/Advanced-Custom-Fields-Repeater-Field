@@ -123,3 +123,73 @@ body.browser-msie .acf-repeater .acf-row-handle .acf-icon.-minus {
 .acf-repeater.-table .acf-row.-collapsed .acf-field.-collapsed-target {
   border-left-color: #dfdfdf;
 }
+
+/*---------------------------------------------------------------------------------------------
+*
+*  Sub-fields layout
+*
+*---------------------------------------------------------------------------------------------*/
+.post-type-acf-field-group #acf-field-group-fields .acf-field-list-wrap .acf-input-sub {
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dbdfe5;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.1);
+}
+.post-type-acf-field-group #acf-field-group-fields .acf-field-list-wrap .acf-sub-field-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: center;
+  min-height: 64px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+.post-type-acf-field-group #acf-field-group-fields .acf-field-list-wrap .acf-field-list-wrap {
+  box-shadow: none;
+}
+.post-type-acf-field-group #acf-field-group-fields .acf-field-list-wrap .acf-hl.acf-tfoot {
+  min-height: 64px;
+  align-items: center;
+}
+.post-type-acf-field-group #acf-field-group-fields .acf-field-list-wrap .acf-input.acf-input-sub {
+  max-width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.post-type-acf-field-group .acf-field-object .acf-sortable-handle {
+  width: 100%;
+  height: 100%;
+}
+
+.post-type-acf-field-group .acf-field-object:hover .acf-sortable-handle:before {
+  display: none;
+}
+
+.post-type-acf-field-group .acf-field-object:hover .acf-field-list .acf-field-object:hover .acf-sortable-handle:before {
+  display: block;
+}
+
+.post-type-acf-field-group .acf-field-object .acf-is-subfields .acf-thead .li-field-label:before {
+  display: none;
+}
+
+.post-type-acf-field-group #acf-field-group-fields .acf-field-list-wrap .acf-input-sub .acf-field-object.open {
+  border-top-color: #dbdfe5;
+}
+
+.post-type-acf-field-group button.add-layout.acf-btn.acf-btn-primary.add-field,
+.post-type-acf-field-group .acf-sub-field-list-header a.acf-btn.acf-btn-secondary.add-field,
+.post-type-acf-field-group .acf-field-list-wrap.acf-is-subfields a.acf-btn.acf-btn-secondary.add-field {
+  height: 32px !important;
+  min-height: 32px;
+  margin-left: 5px;
+}
+
+.acf-field-settings-main .acf-field-type-settings {
+	padding-right: 72px;
+	padding-left: 72px;
+}

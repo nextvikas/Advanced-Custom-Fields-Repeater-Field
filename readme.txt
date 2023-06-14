@@ -12,6 +12,9 @@ However, only when activated as a plugin will updates be available/
 
 == Changelog ==
 
+= 2.2.0 =
+* Added support for ACF version 6.1.6
+
 = 2.1.0 =
 * Added support for ACF version 5.7.0
 
