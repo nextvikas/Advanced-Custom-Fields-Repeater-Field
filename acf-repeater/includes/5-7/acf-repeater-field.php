@@ -406,7 +406,7 @@ class acf_field_repeater extends acf_field {
 			<td class="acf-input">
 				<?php 
 				
-				acf_get_view('field-group-fields', $args);
+				acf_get_view( 'acf-field-group/fields', $args );
 				
 				?>
 			</td>

@@ -4,7 +4,7 @@ Plugin Name: Advanced Custom Fields: Repeater Field
 Plugin Slug: acf-repeater
 Plugin URI: http://www.advancedcustomfields.com/
 Description: This premium Add-on adds a repeater field type for the Advanced Custom Fields plugin
-Version: 2.1.0
+Version: 2.2.0
 Author: Elliot Condon
 Author URI: http://www.elliotcondon.com/
 License: GPL
@@ -41,7 +41,7 @@ class acf_plugin_repeater {
 			
 			// basic
 			'name'				=> __('Advanced Custom Fields: Repeater Field', 'acf'),
-			'version'			=> '2.1.0',
+			'version'			=> '2.2.0',
 						
 			// urls
 			'slug'				=> dirname(plugin_basename( __FILE__ )),
